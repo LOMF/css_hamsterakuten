@@ -19,35 +19,51 @@ h1, h2, h3, h4, h5, h6 {
 ***************************** */
 
 body {
-    
-
+    background-color: #f5f5f5;
+    margin: 0;
 }
 .mitten {
-   
-
+   width:960px;
+   margin: 0 auto;
+   /*border: 1px dashed red;*/
 }
 
 /* ****************************
             header
 ***************************** */
 header {
-
+    background-color: #222;
+    white-space: nowrap;
 }
 .logga {
-
+    font-family: 'Architects Daughter';
+    color: #fff;
+    display: inline-block;
+    font-size: 32px;
+    font-size: 3.2rem;
+    vertical-align: middle;
+    width:315px;
 }
 .logga > span {
-
+    color: red;
 }
 .meny {
-    
+    display: inline-block; 
+    vertical-align: middle;   
 }
 
 .meny > a {
-
+    color: #fff;
+    display: inline-block;
+    width:125px;
+    text-align: center;
+    text-decoration: none;
+    height: 3em;
+    line-height: 3em;
+    margin: 0;
 }
 .meny > a:hover {
-    
+    background-color: #ba3030;
 }
 
 /* ****************************
@@ -55,23 +71,33 @@ header {
 ***************************** */
 
 .start-banner {
-    
+    background-color: #9EF;
+    background-image: url('images/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 35%;
+    padding-top:200px;
 }
 .banner-content {
-   
+   color: #fff;
 }
 .banner-content > h2 {
-   
+   font-size: 45px;
+   font-size: 4.5rem;
+   text-shadow: 0 0 2px #222;
+   font-weight: lighter;
 }
 .banner-content > p {
-    
+    font-size: 20px;
+    font-size: 2.0rem;
+    text-shadow: 0 0 2px #222;
 }
 /* ****************************
             main
 ***************************** */
 
 main {
-   
+   background-color: #fff;
 }
 
 /* ****************************
@@ -79,16 +105,26 @@ main {
 ***************************** */
 
 .info-article {
-    
+    white-space: nowrap;
+    padding: 40px;
 }
 .info-article h2 {
-    
+    font-size: 34px;
+    font-size: 3.4rem;
 }
 .info-article > .info-text {
-    
+    white-space: normal;
+    display: inline-block;
+    width:80%;
 }
 .info-article > aside {
-    
+    display: inline-block;
+    width:20%;
+    background-color: #eee;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 9px -1px #555;
 }
 .info-article > aside > h3 {
     
@@ -101,7 +137,10 @@ main {
 ***************************** */
 
 .section-divider {
-    
+    height: 250px;
+    background-image: url('images/divider3.jpg');
+    background-size: cover;
+    background-position: center center;
 }
 
 /* ****************************
@@ -109,26 +148,34 @@ main {
 ***************************** */
 
 .box-container {
-
+    padding: 40px;
 }
 .box-container > h1 {
-
+    padding: 0 10px;
+    border-bottom: 1px dotted #222;
+    margin-bottom: 30px;
 }
 .box-container > article {
-
+    display: inline-block;
+    width:33%;
+    vertical-align: top;
+    /*border: solid 2px red;*/
+    box-sizing: border-box;
+    padding:10px;
 }
 .box-container > article > h2 {
-
+    font-size: 18px;
+    font-size: 1.8rem;
 }
 .box-container > article > p {
-
+    text-align: justify;
 }
 /* ****************************
             divider two
 ***************************** */
 
 .section-divider.two {
-
+    background-image: url('images/divider.jpg');
 }
 
 /* ****************************
@@ -136,7 +183,8 @@ main {
 ***************************** */
 
 footer {
-
+    background-color: #222;
+    color: #fff;
 }
 .footer-item {
 
