@@ -1,0 +1,143 @@
+/* ****************************
+            RESET
+***************************** */
+:root, html {
+    font-size: 62.5%;
+    font-family: 'Open sans';
+    font-weight: lighter;
+}
+body {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: 500;
+}
+/* ****************************
+            body
+***************************** */
+
+body {
+    
+
+}
+.mitten {
+   
+
+}
+
+/* ****************************
+            header
+***************************** */
+header {
+
+}
+.logga {
+
+}
+.logga > span {
+
+}
+.meny {
+    
+}
+
+.meny > a {
+
+}
+.meny > a:hover {
+    
+}
+
+/* ****************************
+            banner
+***************************** */
+
+.start-banner {
+    
+}
+.banner-content {
+   
+}
+.banner-content > h2 {
+   
+}
+.banner-content > p {
+    
+}
+/* ****************************
+            main
+***************************** */
+
+main {
+   
+}
+
+/* ****************************
+            .info-article
+***************************** */
+
+.info-article {
+    
+}
+.info-article h2 {
+    
+}
+.info-article > .info-text {
+    
+}
+.info-article > aside {
+    
+}
+.info-article > aside > h3 {
+    
+}
+.info-article > aside > address {
+    
+}
+/* ****************************
+            divider one
+***************************** */
+
+.section-divider {
+    
+}
+
+/* ****************************
+            .box-container
+***************************** */
+
+.box-container {
+
+}
+.box-container > h1 {
+
+}
+.box-container > article {
+
+}
+.box-container > article > h2 {
+
+}
+.box-container > article > p {
+
+}
+/* ****************************
+            divider two
+***************************** */
+
+.section-divider.two {
+
+}
+
+/* ****************************
+            footer
+***************************** */
+
+footer {
+
+}
+.footer-item {
+
+}
