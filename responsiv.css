@@ -1,0 +1,40 @@
+@media all and (max-width:959px) {
+    .mitten {
+        width: 768px;
+    }
+
+    .meny {
+        display: none;
+    }
+
+    .info-article > .info-text {
+        display: block;
+        width:auto;
+    }
+
+    .info-article > aside {
+        display: block;
+        width: auto;
+    }
+      .info-article > aside > div {
+          float: left;
+          width:33%;
+      }
+      .info-article > aside::after {
+          content: "";
+          display: block;
+          clear:both;
+      }
+      .box-container > article {
+          display: block;
+          width: auto;
+      }
+}
+
+@media all and (max-width:767px) {
+
+    .mitten {
+        width: auto;
+    }
+
+}
