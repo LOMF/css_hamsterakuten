@@ -29,6 +29,10 @@
           display: block;
           width: auto;
       }
+
+      .box-container {
+          
+      }
 }
 
 @media all and (max-width:767px) {

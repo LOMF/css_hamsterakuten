@@ -108,6 +108,17 @@ header {
 main {
    background-color: #fff;
 }
+.flex-col {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+.flex-col > * {
+    width: 960px;
+    background-color: #fff;
+}
 
 /* ****************************
             .info-article
