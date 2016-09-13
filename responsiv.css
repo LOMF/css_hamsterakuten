@@ -2,6 +2,9 @@
     .mitten {
         width: 768px;
     }
+    .flex-col > * {
+        width: 768px;    
+    }
 
     .meny {
         display: none;
@@ -43,5 +46,7 @@
     .mitten {
         width: auto;
     }
-
+    .flex-col > * {
+        width: 100%;    
+    }
 }
