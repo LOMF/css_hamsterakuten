@@ -31,7 +31,10 @@
       }
 
       .box-container {
-          
+          order:-5;
+      }
+      .section-divider.two {
+          order:-2;
       }
 }
 
