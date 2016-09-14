@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sv" >
+
+    <head>
+        <meta charset="UTF-8">
+        <title>css demo</title>
+        <style>
+
+            html[lang|=sv] {
+
+            }
+
+            h1 {
+                text-transform: uppercase;
+            }
+            
+            input[type=checkbox]:required:not(:checked) + span {
+                font-weight: bold;
+                color: red;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1> rubrik </h1>
+        </header>
+        <fieldset>
+            <label>
+            <div data-databasid="123">
+
+                
+            </div>
+            <input type="text" required>
+            <span>Denna måste fyllas i!</span>
+       </label>
+        </fieldset>
+        <fieldset>
+            <label>
+            <input type="checkbox" required>
+            <span>jag har läst!</span>
+       </label>
+        </fieldset>
+
+    </body>
+
+</html>

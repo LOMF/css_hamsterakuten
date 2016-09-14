@@ -1,0 +1,6 @@
+   .meny, .start-banner, .info-article, .section-divider {
+        display: none;
+    }
+    .mitten {
+        width: 100%;
+    }
