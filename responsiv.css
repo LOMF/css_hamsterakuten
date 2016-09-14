@@ -1,12 +1,3 @@
-@media print {
-    .meny, .start-banner, .info-article, .section-divider {
-        display: none;
-    }
-    .mitten {
-        width: 100%;
-    }
-}
-
 @media all and (max-width:959px) {
     .mitten {
         width: 768px;

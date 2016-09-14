@@ -14,6 +14,30 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     font-weight: 500;
 }
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+a[href$=\.pdf]::before {
+    content:"\f1c1"; /* fa-pdf-file-o */
+    font-family: FontAwesome;
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+a[href^=http]::before {
+    content:"\f08e"; /* fa-external-link */
+    font-family: FontAwesome;
+    margin-right: 10px;
+    color: #000;
+    text-decoration: none;
+    
+}
 /* ****************************
             body
 ***************************** */
